@@ -18,8 +18,12 @@ silent! colorscheme adwaita
 set number
 set relativenumber
 set cursorline
+au InsertEnter * hi CursorLine gui=underline cterm=underline
+au InsertLeave * hi CursorLine gui=none cterm=none guibg=Grey20
 set linebreak
+nnoremap <CR> <cmd>FineCmdline<CR>
 lua << EOF
+vim.opt.showmode = false
 require('lualine').setup {
   options = {
     icons_enabled = true,
