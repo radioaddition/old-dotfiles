@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=radioaddition@murena.io
+Enabled=true
+Parent=2ff28071f95d5ee0c59ffefc0ad33c0546e6e58e
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=a960d3a27cf16d8cec5e857cb5eb35cd086f77df
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=radioaddition@murena.io
+Aliases=
+Name=RadioAddition
+Organization=
+ReplyTo=
+SignatureUid=none

@@ -1,0 +1,31 @@
+[Data Source]
+DisplayName=radioaddition@murena.io
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=none
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=
+CredentialName=
+IsExternal=true
+
+[Collection]
+BackendName=webdav
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=radioaddition
+MailEnabled=true
+AllowSourcesRename=false
+CalendarUrl=
+ContactsUrl=
+
+[GNOME Online Accounts]
+AccountId=account_1721970352_1
+CalendarUrl=https://radioaddition@murena.io/remote.php/dav
+ContactsUrl=https://radioaddition@murena.io/remote.php/dav
+Name=
+Address=

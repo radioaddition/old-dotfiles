@@ -1,0 +1,372 @@
+2024/07/25 23:22:19 Client expects anon auth
+2024/07/25 23:22:19 Checking for updates...
+2024/07/25 23:22:20 Fetching MOTD for riseup.net
+2024/07/25 23:22:21 There are 4 pending messages
+2024/07/25 23:22:21 firewall stop
+2024/07/25 23:22:24 Getting certificate...
+2024/07/25 23:22:24 Fetching gateways...
+2024/07/25 23:22:24 Fetching certificate to /tmp/leap-1880709011/openvpn.pem
+2024/07/25 23:22:25 Post "https://api.black.riseup.net/3/cert": tls: failed to verify certificate: x509: certificate signed by unknown authority
+2024/07/25 23:22:25 From here, api.black.riseup.net resolves to:
+2024/07/25 23:22:25 198.252.153.67
+2024/07/25 23:22:25 198.252.153.106
+2024/07/25 23:22:25 Error fetching eip v3 json:https://api.black.riseup.net/3/config/eip-service.json
+2024/07/25 23:22:25 Successfully did certificate bypass
+2024/07/25 23:22:26 Error fetching eip v3 json:https://api.black.riseup.net/3/config/eip-service.json
+2024/07/25 23:22:26 Got sorted gateways: [vpn12-nyc.riseup.net vpn09-mia.riseup.net vpn17-mia.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn02-par.riseup.net vpn20-par.riseup.net vpn08-par.riseup.net vpn07-par.riseup.net vpn03-par.riseup.net vpn14-par.riseup.net vpn05-par.riseup.net vpn11-par.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net vpn19-ams.riseup.net vpn13-ams.riseup.net]
+2024/07/25 23:22:27 Got sorted gateways: [vpn12-nyc.riseup.net vpn17-mia.riseup.net vpn09-mia.riseup.net vpn10-mtl.riseup.net vpn18-mtl.riseup.net vpn16-sea.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn03-par.riseup.net vpn08-par.riseup.net vpn07-par.riseup.net vpn20-par.riseup.net vpn05-par.riseup.net vpn02-par.riseup.net vpn14-par.riseup.net vpn11-par.riseup.net vpn13-ams.riseup.net vpn04-ams.riseup.net vpn19-ams.riseup.net vpn06-ams.riseup.net]
+2024/07/25 23:22:27 args passed to bitmask-root: [--tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float  --auth SHA1 --cipher AES-128-CBC --keepalive 10 30]
+2024/07/25 23:22:27 firewall start
+2024/07/25 23:22:30 openvpn start:  [--tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float  --auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --remote 185.220.103.11 80 tcp4 --remote 185.220.103.11 1194 tcp4 --remote 37.218.244.248 80 tcp4 --remote 37.218.244.248 1194 tcp4 --remote 37.218.244.250 80 tcp4 --remote 37.218.244.250 1194 tcp4 --verb 3 --management-client --management 127.0.0.1 6061 --ca /tmp/leap-1880709011/cacert.pem --cert /tmp/leap-1880709011/openvpn.pem --key /tmp/leap-1880709011/openvpn.pem --persist-tun --float]
+2024/07/25 23:22:33 New connection into the management
+2024/07/25 23:22:33 Event: INFO: OpenVPN Management Interface Version 5 -- type 'help' for more info
+2024/07/25 23:22:33 Event: AUTH
+2024/07/25 23:22:33 Event: RECONNECTING: connection-reset
+2024/07/25 23:22:34 Event: TCP_CONNECT
+2024/07/25 23:22:34 Event: WAIT
+2024/07/25 23:22:34 Event: AUTH
+2024/07/25 23:22:35 Event: RECONNECTING: connection-reset
+2024/07/25 23:22:36 Event: TCP_CONNECT
+2024/07/25 23:22:36 Event: WAIT
+2024/07/25 23:22:36 Event: AUTH
+2024/07/25 23:22:36 Event: RECONNECTING: connection-reset
+2024/07/25 23:22:37 Event: TCP_CONNECT
+2024/07/25 23:22:37 Event: WAIT
+2024/07/25 23:22:37 Event: AUTH
+2024/07/25 23:22:39 Getting certificate...
+2024/07/25 23:22:39 DEBUG We have a valid cert: /tmp/leap-1880709011/openvpn.pem
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 args passed to bitmask-root: [--auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float ]
+2024/07/25 23:23:00 firewall start
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:00 Event: AUTH
+2024/07/25 23:23:00 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:00 Event: TCP_CONNECT
+2024/07/25 23:23:00 Event: WAIT
+2024/07/25 23:23:01 Event: AUTH
+2024/07/25 23:23:01 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:02 Event: TCP_CONNECT
+2024/07/25 23:23:02 Event: WAIT
+2024/07/25 23:23:02 Event: AUTH
+2024/07/25 23:23:02 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:03 Event: TCP_CONNECT
+2024/07/25 23:23:03 Event: WAIT
+2024/07/25 23:23:03 Event: AUTH
+2024/07/25 23:23:03 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:03 openvpn start:  [--auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float  --remote 185.220.103.11 80 tcp4 --remote 185.220.103.11 1194 tcp4 --remote 37.218.244.248 80 tcp4 --remote 37.218.244.248 1194 tcp4 --remote 37.218.244.250 80 tcp4 --remote 37.218.244.250 1194 tcp4 --verb 3 --management-client --management 127.0.0.1 6061 --ca /tmp/leap-1880709011/cacert.pem --cert /tmp/leap-1880709011/openvpn.pem --key /tmp/leap-1880709011/openvpn.pem --persist-tun --float]
+2024/07/25 23:23:04 Event: TCP_CONNECT
+2024/07/25 23:23:04 Event: WAIT
+2024/07/25 23:23:04 Event: AUTH
+2024/07/25 23:23:04 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:05 New connection into the management
+2024/07/25 23:23:05 Event: INFO: OpenVPN Management Interface Version 5 -- type 'help' for more info
+2024/07/25 23:23:05 Event: TCP_CONNECT
+2024/07/25 23:23:05 Event: AUTH
+2024/07/25 23:23:05 Event: WAIT
+2024/07/25 23:23:05 Event: AUTH
+2024/07/25 23:23:06 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:06 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:07 Event: TCP_CONNECT
+2024/07/25 23:23:07 Event: WAIT
+2024/07/25 23:23:07 Event: TCP_CONNECT
+2024/07/25 23:23:07 Event: AUTH
+2024/07/25 23:23:07 Event: WAIT
+2024/07/25 23:23:07 Event: AUTH
+2024/07/25 23:23:07 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:07 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:08 Event: TCP_CONNECT
+2024/07/25 23:23:08 Event: WAIT
+2024/07/25 23:23:08 Event: TCP_CONNECT
+2024/07/25 23:23:08 Event: AUTH
+2024/07/25 23:23:08 Event: WAIT
+2024/07/25 23:23:08 Event: AUTH
+2024/07/25 23:23:08 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:08 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:09 Event: TCP_CONNECT
+2024/07/25 23:23:09 Event: WAIT
+2024/07/25 23:23:09 Event: AUTH
+2024/07/25 23:23:09 Event: TCP_CONNECT
+2024/07/25 23:23:09 Event: WAIT
+2024/07/25 23:23:09 Event: AUTH
+2024/07/25 23:23:09 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:09 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:10 Event: TCP_CONNECT
+2024/07/25 23:23:10 Event: WAIT
+2024/07/25 23:23:10 Event: AUTH
+2024/07/25 23:23:10 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:11 Event: TCP_CONNECT
+2024/07/25 23:23:11 Event: WAIT
+2024/07/25 23:23:11 Event: AUTH
+2024/07/25 23:23:11 Event: TCP_CONNECT
+2024/07/25 23:23:11 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:11 Event: WAIT
+2024/07/25 23:23:12 Event: AUTH
+2024/07/25 23:23:12 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:13 Event: TCP_CONNECT
+2024/07/25 23:23:13 Event: WAIT
+2024/07/25 23:23:13 Event: AUTH
+2024/07/25 23:23:13 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:13 Event: TCP_CONNECT
+2024/07/25 23:23:14 Event: WAIT
+2024/07/25 23:23:14 Event: AUTH
+2024/07/25 23:23:14 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:14 Event: TCP_CONNECT
+2024/07/25 23:23:14 Event: WAIT
+2024/07/25 23:23:14 Event: AUTH
+2024/07/25 23:23:14 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:15 Event: TCP_CONNECT
+2024/07/25 23:23:15 Event: WAIT
+2024/07/25 23:23:15 Event: AUTH
+2024/07/25 23:23:15 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:16 Event: TCP_CONNECT
+2024/07/25 23:23:16 Event: WAIT
+2024/07/25 23:23:16 Event: AUTH
+2024/07/25 23:23:16 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:16 Event: TCP_CONNECT
+2024/07/25 23:23:16 Event: WAIT
+2024/07/25 23:23:16 Event: AUTH
+2024/07/25 23:23:17 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:17 firewall stop
+2024/07/25 23:23:18 Event: TCP_CONNECT
+2024/07/25 23:23:18 Event: WAIT
+2024/07/25 23:23:18 Event: AUTH
+2024/07/25 23:23:18 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:18 Event: TCP_CONNECT
+2024/07/25 23:23:18 Event: WAIT
+2024/07/25 23:23:18 Event: AUTH
+2024/07/25 23:23:18 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:19 Event: TCP_CONNECT
+2024/07/25 23:23:19 Event: WAIT
+2024/07/25 23:23:19 Event: AUTH
+2024/07/25 23:23:19 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:20 openvpn stop
+2024/07/25 23:23:20 Event: TCP_CONNECT
+2024/07/25 23:23:20 Event: WAIT
+2024/07/25 23:23:20 Event: AUTH
+2024/07/25 23:23:20 Event: EXITING: init_instance
+2024/07/25 23:23:20 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:21 Event: TCP_CONNECT
+2024/07/25 23:23:21 Event: WAIT
+2024/07/25 23:23:21 Event: AUTH
+2024/07/25 23:23:22 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:23 Event: TCP_CONNECT
+2024/07/25 23:23:23 Event: WAIT
+2024/07/25 23:23:23 Event: AUTH
+2024/07/25 23:23:23 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:24 Event: TCP_CONNECT
+2024/07/25 23:23:24 Event: WAIT
+2024/07/25 23:23:24 Event: AUTH
+2024/07/25 23:23:24 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:25 Event: TCP_CONNECT
+2024/07/25 23:23:25 Event: WAIT
+2024/07/25 23:23:25 Event: AUTH
+2024/07/25 23:23:25 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:26 Event: TCP_CONNECT
+2024/07/25 23:23:26 Event: WAIT
+2024/07/25 23:23:26 Event: AUTH
+2024/07/25 23:23:27 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:28 Event: TCP_CONNECT
+2024/07/25 23:23:28 Event: WAIT
+2024/07/25 23:23:28 Event: AUTH
+2024/07/25 23:23:28 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:29 Event: TCP_CONNECT
+2024/07/25 23:23:29 Event: WAIT
+2024/07/25 23:23:29 Event: AUTH
+2024/07/25 23:23:29 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:30 Event: TCP_CONNECT
+2024/07/25 23:23:30 Event: WAIT
+2024/07/25 23:23:30 Event: AUTH
+2024/07/25 23:23:30 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:31 Event: TCP_CONNECT
+2024/07/25 23:23:31 Event: WAIT
+2024/07/25 23:23:31 Event: AUTH
+2024/07/25 23:23:31 firewall stop
+2024/07/25 23:23:31 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:32 Event: TCP_CONNECT
+2024/07/25 23:23:33 Event: WAIT
+2024/07/25 23:23:33 Event: AUTH
+2024/07/25 23:23:33 Event: RECONNECTING: connection-reset
+2024/07/25 23:23:33 openvpn stop
+2024/07/25 23:23:34 Event: TCP_CONNECT
+2024/07/25 23:23:34 Event: WAIT
+2024/07/25 23:23:34 Event: AUTH
+2024/07/25 23:23:34 Event: EXITING: SIGTERM
+2024/07/25 23:23:40 DEBUG udp:true
+2024/07/25 23:23:46 Getting certificate...
+2024/07/25 23:23:46 DEBUG We have a valid cert: /tmp/leap-1880709011/openvpn.pem
+2024/07/25 23:23:46 args passed to bitmask-root: [--auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float ]
+2024/07/25 23:23:46 firewall start
+2024/07/25 23:23:47 openvpn start:  [--auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float  --remote 185.220.103.11 80 udp4 --remote 185.220.103.11 1194 udp4 --remote 37.218.244.248 80 udp4 --remote 37.218.244.248 1194 udp4 --remote 37.218.244.250 80 udp4 --remote 37.218.244.250 1194 udp4 --verb 3 --management-client --management 127.0.0.1 6061 --ca /tmp/leap-1880709011/cacert.pem --cert /tmp/leap-1880709011/openvpn.pem --key /tmp/leap-1880709011/openvpn.pem --persist-tun --float]
+2024/07/25 23:23:48 New connection into the management
+2024/07/25 23:23:48 Event: INFO: OpenVPN Management Interface Version 5 -- type 'help' for more info
+2024/07/25 23:23:48 Event: AUTH
+2024/07/25 23:24:18 Event: RECONNECTING: ping-restart
+2024/07/25 23:24:19 Event: WAIT
+2024/07/25 23:24:19 Event: AUTH
+2024/07/25 23:24:29 firewall stop
+2024/07/25 23:24:30 openvpn stop
+2024/07/25 23:24:31 Event: EXITING: SIGTERM
+2024/07/25 23:26:52 Close: cleanup and vpn shutdown...
+2024/07/25 23:26:52 firewall stop
+2024/07/25 23:27:19 openvpn stop
+2024/07/29 00:31:56 Client expects anon auth
+2024/07/29 00:31:56 Checking for updates...
+2024/07/29 00:31:57 firewall stop
+2024/07/29 00:32:04 Use UDP
+2024/07/29 00:32:04 Fetching gateways...
+2024/07/29 00:32:05 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:05 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:13 Getting certificate...
+2024/07/29 00:32:13 Fetching certificate to /tmp/leap-669736333/openvpn.pem
+2024/07/29 00:32:14 Post "https://api.calyx.net:4430/3/cert": tls: failed to verify certificate: x509: certificate signed by unknown authority (possibly because of "crypto/rsa: verification error" while trying to verify candidate authority certificate "calyx Root CA")
+2024/07/29 00:32:14 ERROR cannot resolve address: api.calyx.net:4430
+2024/07/29 00:32:14 lookup api.calyx.net:4430: no such host
+2024/07/29 00:32:14 From here, api.calyx.net:4430 resolves to:
+2024/07/29 00:32:14 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:14 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:20 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:20 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:29 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:29 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:35 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:35 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:45 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:45 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:50 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:32:50 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/29 00:32:52 Close: cleanup and vpn shutdown...
+2024/07/29 00:32:52 firewall stop
+2024/07/29 00:32:58 openvpn stop
+2024/07/29 00:33:00 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/29 00:33:00 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:06:41 Client expects anon auth
+2024/07/30 00:06:41 Checking for updates...
+2024/07/30 00:06:42 firewall stop
+2024/07/30 00:06:42 Use UDP
+2024/07/30 00:06:42 Fetching gateways...
+2024/07/30 00:06:43 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:06:43 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:06:45 Getting certificate...
+2024/07/30 00:06:45 Fetching certificate to /tmp/leap-1754884059/openvpn.pem
+2024/07/30 00:06:46 Post "https://api.calyx.net:4430/3/cert": tls: failed to verify certificate: x509: certificate signed by unknown authority (possibly because of "crypto/rsa: verification error" while trying to verify candidate authority certificate "calyx Root CA")
+2024/07/30 00:06:46 ERROR cannot resolve address: api.calyx.net:4430
+2024/07/30 00:06:46 lookup api.calyx.net:4430: no such host
+2024/07/30 00:06:46 From here, api.calyx.net:4430 resolves to:
+2024/07/30 00:06:46 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:06:46 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:06:58 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:06:58 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:07:02 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:07:02 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:07:13 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:07:13 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:07:17 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:07:17 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:07:29 Error fetching eip v3 json:https://api.calyx.net:4430/3/config/eip-service.json
+2024/07/30 00:07:29 Error again fetching eip v3 json: Post "https:///3/config/eip-service.json": http: no Host in request URL
+2024/07/30 00:07:30 Getting certificate...
+2024/07/30 00:07:39 Client expects anon auth
+2024/07/30 00:07:39 Checking for updates...
+2024/07/30 00:07:40 Fetching MOTD for riseup.net
+2024/07/30 00:07:40 There are 4 pending messages
+2024/07/30 00:07:40 firewall stop
+2024/07/30 00:07:41 Use UDP
+2024/07/30 00:07:41 Fetching gateways...
+2024/07/30 00:07:41 Error fetching eip v3 json:https://api.black.riseup.net/3/config/eip-service.json
+2024/07/30 00:07:42 Got sorted gateways: [vpn12-nyc.riseup.net vpn09-mia.riseup.net vpn17-mia.riseup.net vpn18-mtl.riseup.net vpn10-mtl.riseup.net vpn01-sea.riseup.net vpn15-sea.riseup.net vpn16-sea.riseup.net vpn07-par.riseup.net vpn03-par.riseup.net vpn20-par.riseup.net vpn08-par.riseup.net vpn14-par.riseup.net vpn05-par.riseup.net vpn11-par.riseup.net vpn02-par.riseup.net vpn13-ams.riseup.net vpn19-ams.riseup.net vpn04-ams.riseup.net vpn06-ams.riseup.net]
+2024/07/30 00:07:51 Getting certificate...
+2024/07/30 00:07:51 Fetching certificate to /tmp/leap-1860539195/openvpn.pem
+2024/07/30 00:07:52 Post "https://api.black.riseup.net/3/cert": tls: failed to verify certificate: x509: certificate signed by unknown authority
+2024/07/30 00:07:52 From here, api.black.riseup.net resolves to:
+2024/07/30 00:07:52 198.252.153.106
+2024/07/30 00:07:52 198.252.153.67
+2024/07/30 00:07:52 Successfully did certificate bypass
+2024/07/30 00:07:52 args passed to bitmask-root: [--auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float ]
+2024/07/30 00:07:52 firewall start
+2024/07/30 00:07:53 openvpn start:  [--auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --tun-ipv6 --float  --remote 185.220.103.11 80 udp4 --remote 185.220.103.11 1194 udp4 --remote 37.218.244.250 80 udp4 --remote 37.218.244.250 1194 udp4 --remote 37.218.244.248 80 udp4 --remote 37.218.244.248 1194 udp4 --verb 3 --management-client --management 127.0.0.1 6061 --ca /tmp/leap-1860539195/cacert.pem --cert /tmp/leap-1860539195/openvpn.pem --key /tmp/leap-1860539195/openvpn.pem --persist-tun --float]
+2024/07/30 00:07:53 New connection into the management
+2024/07/30 00:07:53 Event: INFO: OpenVPN Management Interface Version 5 -- type 'help' for more info
+2024/07/30 00:07:53 Event: AUTH
+2024/07/30 00:08:06 firewall stop
+2024/07/30 00:08:06 openvpn stop
+2024/07/30 00:08:06 Event: EXITING: SIGTERM
+2024/07/30 00:09:10 Getting certificate...
+2024/07/30 00:09:10 DEBUG We have a valid cert: /tmp/leap-1860539195/openvpn.pem
+2024/07/30 00:09:10 args passed to bitmask-root: [--tun-ipv6 --float  --auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA]
+2024/07/30 00:09:10 firewall start
+2024/07/30 00:09:11 openvpn start:  [--tun-ipv6 --float  --auth SHA1 --cipher AES-128-CBC --keepalive 10 30 --tls-cipher DHE-RSA-AES128-SHA --remote 185.220.103.11 80 udp4 --remote 185.220.103.11 1194 udp4 --remote 37.218.244.250 80 udp4 --remote 37.218.244.250 1194 udp4 --remote 37.218.244.248 80 udp4 --remote 37.218.244.248 1194 udp4 --verb 3 --management-client --management 127.0.0.1 6061 --ca /tmp/leap-1860539195/cacert.pem --cert /tmp/leap-1860539195/openvpn.pem --key /tmp/leap-1860539195/openvpn.pem --persist-tun --float]
+2024/07/30 00:09:11 New connection into the management
+2024/07/30 00:09:11 Event: INFO: OpenVPN Management Interface Version 5 -- type 'help' for more info
+2024/07/30 00:09:11 Event: AUTH
+2024/07/30 00:09:14 firewall stop
+2024/07/30 00:09:14 openvpn stop
+2024/07/30 00:09:15 Event: EXITING: SIGTERM

@@ -1,0 +1,27 @@
+[Data Source]
+DisplayName=radioaddition@murena.io
+Enabled=true
+Parent=2ff28071f95d5ee0c59ffefc0ad33c0546e6e58e
+
+[Authentication]
+Host=mail.ecloud.global
+Method=PLAIN
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=radioaddition@murena.io
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=starttls-on-standard-port
+
+[Mail Transport]
+BackendName=smtp
+
+[Smtp Backend]
+ReencodeData=false
+DsnRetFull=false
+DsnNotifySuccess=true
+DsnNotifyFailure=true
+DsnNotifyDelay=true

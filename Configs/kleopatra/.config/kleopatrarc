@@ -1,0 +1,14 @@
+[Import Certificate]
+last-open-file-directory[$e]=$HOME
+
+[MainWindow]
+1366x768 screen: XPosition=170
+1366x768 screen: YPosition=135
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABAAAAAG6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Self-Test]
+last-selftest-version=1
+run-at-startup=true
