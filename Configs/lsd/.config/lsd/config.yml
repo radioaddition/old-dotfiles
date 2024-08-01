@@ -81,7 +81,7 @@ layout: tree
 recursion:
   # Whether to enable recursion.
   # Possible values: false, true
-  enabled: true
+  enabled: false
   # How deep the recursion should go. This has to be a positive integer. Leave
   # it unspecified for (virtually) infinite.
   depth: 3
