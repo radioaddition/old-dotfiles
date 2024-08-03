@@ -18,6 +18,7 @@ silent! colorscheme adwaita
 set number
 set relativenumber
 set cursorline
+set clipboard+=unnamedplus
 au InsertEnter * hi CursorLine gui=underline cterm=underline
 au InsertLeave * hi CursorLine gui=none cterm=none guibg=Grey20
 set linebreak

@@ -10,10 +10,10 @@
 // - set it within a user.js file in your profile.
 
 user_pref("accessibility.typeaheadfind.flashBar", 0);
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1722574078);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1722653914);
-user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1722574078);
-user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1722574078);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1722660479);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1722667003);
+user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1722660479);
+user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1722660479);
 user_pref("browser.bookmarks.addedImportButton", true);
 user_pref("browser.bookmarks.defaultLocation", "fTVi_EU5j0_p");
 user_pref("browser.bookmarks.editDialog.confirmationHintShowCount", 3);
@@ -53,6 +53,7 @@ user_pref("browser.theme.dark-private-windows", false);
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[],\"unified-extensions-area\":[],\"nav-bar\":[\"back-button\",\"forward-button\",\"stop-reload-button\",\"customizableui-special-spring1\",\"urlbar-container\",\"customizableui-special-spring2\",\"save-to-pocket-button\",\"downloads-button\",\"fxa-toolbar-menu-button\",\"unified-extensions-button\",\"ublock0_raymondhill_net-browser-action\",\"addon_darkreader_org-browser-action\",\"keepassxc-browser_keepassxc_org-browser-action\",\"jid1-zadieub7xozojw_jetpack-browser-action\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[\"import-button\",\"personal-bookmarks\"]},\"seen\":[\"developer-button\",\"ublock0_raymondhill_net-browser-action\",\"addon_darkreader_org-browser-action\",\"keepassxc-browser_keepassxc_org-browser-action\",\"jid1-zadieub7xozojw_jetpack-browser-action\"],\"dirtyAreaCache\":[\"nav-bar\",\"PersonalToolbar\",\"unified-extensions-area\",\"toolbar-menubar\",\"TabsToolbar\"],\"currentVersion\":20,\"newElementCount\":2}");
 user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
 user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
+user_pref("browser.urlbar.tabToSearch.onboard.interactionsLeft", 2);
 user_pref("captivedetect.canonicalURL", "");
 user_pref("devtools.console.stdout.chrome", false);
 user_pref("devtools.debugger.remote-enabled", false);
@@ -61,13 +62,13 @@ user_pref("distribution.iniFile.exists.value", true);
 user_pref("distribution.nixos.bookmarksProcessed", true);
 user_pref("doh-rollout.provider-list", "[{\"UIName\":\"Mozilla Cloudflare\",\"uri\":\"https://mozilla.cloudflare-dns.com/dns-query\"},{\"UIName\":\"Quad9\",\"uri\":\"https://dns.quad9.net/dns-query\"},{\"UIName\":\"Quad9+ECS\",\"uri\":\"https://dns11.quad9.net/dns-query\"}]");
 user_pref("dom.forms.autocomplete.formautofill", true);
-user_pref("dom.push.userAgentID", "65f3644567b24ad99d68b2704a6b8bf4");
+user_pref("dom.push.userAgentID", "1986b2bb609645c09601c40e2a25acff");
 user_pref("dom.security.https_only_mode_ever_enabled", true);
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.databaseSchema", 36);
 user_pref("extensions.formautofill.creditCards.reauth.optout", "MDIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECJKDBekutLurBAhs9hlNALF+8A==");
-user_pref("extensions.getAddons.cache.lastUpdate", 1722574079);
+user_pref("extensions.getAddons.cache.lastUpdate", 1722660480);
 user_pref("extensions.getAddons.databaseSchema", 6);
 user_pref("extensions.lastAppBuildId", "20240704121409");
 user_pref("extensions.lastAppVersion", "128.0");
