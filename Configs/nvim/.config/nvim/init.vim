@@ -21,6 +21,7 @@ set cursorline
 au InsertEnter * hi CursorLine gui=underline cterm=underline
 au InsertLeave * hi CursorLine gui=none cterm=none guibg=Grey20
 set linebreak
+set scrolloff=5
 nnoremap <CR> <cmd>FineCmdline<CR>
 lua << EOF
 vim.opt.showmode = false
