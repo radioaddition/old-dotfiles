@@ -1,0 +1,3 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+127.0.0.1:7650:	OID.2.16.840.1.101.3.4.2.1	CF:68:B8:E3:58:55:3B:E7:BB:E2:74:61:5E:28:91:C4:EE:89:71:F9:D9:DB:6D:F5:0B:41:5D:FA:87:08:26:5B	

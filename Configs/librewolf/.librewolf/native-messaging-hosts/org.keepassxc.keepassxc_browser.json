@@ -1,0 +1,9 @@
+{
+    "allowed_extensions": [
+        "keepassxc-browser@keepassxc.org"
+    ],
+    "description": "KeePassXC integration with native messaging support",
+    "name": "org.keepassxc.keepassxc_browser",
+    "path": "/nix/store/glgd94v3pcxd0r06pl84w0lc6inz4105-keepassxc-2.7.7/bin/keepassxc-proxy",
+    "type": "stdio"
+}
