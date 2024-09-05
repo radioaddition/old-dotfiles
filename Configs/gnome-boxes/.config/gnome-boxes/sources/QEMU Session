@@ -4,9 +4,3 @@ type=libvirt
 uri=qemu+unix:///session
 save-on-quit=true
 
-[display a64cdb66-5389-4929-b69a-5c77d1face36]
-last-seen-name=Fedora Silverblue 40 2
-uuid=a64cdb66-5389-4929-b69a-5c77d1face36
-acceleration-3d=false
-run-in-bg=true
-access-last-time=1722231211342741
