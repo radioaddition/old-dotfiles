@@ -51,7 +51,7 @@ alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
 alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
-alias -- 'rootshell'='run0 sh -c "zsh"'
+alias -- 'rootsh'='run0 sh -c "zsh"'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
