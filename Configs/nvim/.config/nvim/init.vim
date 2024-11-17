@@ -11,6 +11,7 @@ Plug 'VonHeikemen/fine-cmdline.nvim'
 Plug 'Mofiqul/adwaita.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
+Plug 'NoahTheDuke/vim-just'
 
 call plug#end()
 let g:adwaita_transparent = v:true
