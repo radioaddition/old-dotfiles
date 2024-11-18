@@ -1,4 +1,4 @@
-PATH=:/home/radioaddition/.local/bin:/home/radioaddition/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/radioaddition/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/var/home/linuxbrew/.linuxbrew/Cellar/zplug/2.4.2/bin
+PATH=/home/radioaddition/.local/bin:/home/radioaddition/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/radioaddition/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/var/home/linuxbrew/.linuxbrew/Cellar/zplug/2.4.2/bin
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -45,13 +45,14 @@ GPG_TTY="$(tty)"
 export GPG_TTY
 # Aliases
 alias -- 'archive'='tar -czvf archive.tar.gz '
+alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
 alias -- 'clean'='nix-env --delete-generations old && nix-collect-garbage -d'
 alias -- 'cleanr'='sudo nix-env --delete-generations old && sudo nix-collect-garbage -d'
 alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
-alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
-alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
+alias -- 'ls'='eza'
 alias -- 'rootsh'='run0 sh -c "zsh"'
+alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
