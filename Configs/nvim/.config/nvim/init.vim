@@ -14,6 +14,7 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'NoahTheDuke/vim-just'
 
 call plug#end()
+runtime! ftplugin/man.vim
 let g:adwaita_transparent = v:true
 silent! colorscheme adwaita
 set number
