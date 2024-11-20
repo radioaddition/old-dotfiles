@@ -7,6 +7,9 @@ app.fotema.Fotema
 # SimpleX Chat
 chat.simplex.simplex
 
+# GPU Screen recorder
+com.dec05eba.gpu_screen_recorder
+
 # Protontricks
 com.github.Matoking.protontricks
 
