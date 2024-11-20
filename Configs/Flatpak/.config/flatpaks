@@ -42,26 +42,52 @@ io.github.dvlv.boxbuddyrs
 
 # Warehouse, flatpak manager
 io.github.flattool.Warehouse
+
+# Flatsweep, flatpak remnant cleaner
 io.github.giantpinkrobots.flatsweep
+
+# Video wallpaper
 io.github.jeffshee.Hidamari
+
+# Discord client
 io.github.milkshiift.GoofCord
+
+# LLM app
 io.github.qwersyk.Newelle
+
+# Bootable media creator
 io.gitlab.adhami3310.Impression
+
+# Gnome VM manager
 org.gnome.Boxes
+
 org.gnome.Calculator
 org.gnome.Calendar
 org.gnome.Connections
 org.gnome.Contacts
+
+# Document viewer
 org.gnome.Evince
+
 org.gnome.Logs
 org.gnome.Snapshot
 org.gnome.TextEditor
 org.gnome.World.PikaBackup
-org.gnome.World.Secrets
+
+# Disk usage analyzer
 org.gnome.baobab
+
 org.gnome.clocks
 org.gnome.font-viewer
+
+# Markdown text editor
 org.gnome.gitlab.somas.Apostrophe
+
+org.keepassxc.KeePassXC
 org.localsend.localsend_app
+
+# Parabolic
 org.nickvision.tubeconverter
+
+# Menu item editor
 page.codeberg.libre_menu_editor.LibreMenuEditor
