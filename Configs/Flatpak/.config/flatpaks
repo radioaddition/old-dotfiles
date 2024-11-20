@@ -72,6 +72,10 @@ org.gnome.Evince
 org.gnome.Logs
 org.gnome.Snapshot
 org.gnome.TextEditor
+
+# Gnome Keepass client
+org.gnome.World.Secrets
+
 org.gnome.World.PikaBackup
 
 # Disk usage analyzer
