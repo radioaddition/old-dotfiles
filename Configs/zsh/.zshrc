@@ -37,7 +37,8 @@ unsetopt HIST_EXPIRE_DUPS_FIRST
 setopt SHARE_HISTORY
 unsetopt EXTENDED_HISTORY
 
-EDITOR="nvim"
+export EDITOR="nvim"
+export MANPAGER='nvim +Man!'
 source "$HOME/.p10k.zsh"
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
