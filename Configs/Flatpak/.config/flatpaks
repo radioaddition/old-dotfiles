@@ -1,17 +1,46 @@
+# Warp, a wormhole client
+app.drey.Warp
+
+# Fotema, a photo viewer
 app.fotema.Fotema
+
+# SimpleX Chat
 chat.simplex.simplex
+
+# Protontricks
 com.github.Matoking.protontricks
+
+# Flatseal, a flatpak permissions manager
 com.github.tchx84.Flatseal
-com.heroicgameslauncher.hgl
+
+# Bottles, a wine prefix manager
 com.usebottles.bottles
+
+# ProtonPlus, a GUI proton updater
 com.vysp3r.ProtonPlus
+
+# Fragments, a GTK+ torrent client
 de.haeckerfelix.Fragments
+
+# Snoop, search through file contents (rather than just names)
 de.philippun1.Snoop
+
+# Youtube Client
 de.schmidhuberj.tubefeeder
+
+# Metadata cleaner
 fr.romainvigier.MetadataCleaner
+
+# Ente Auth, 2FA app
 io.ente.auth
+
+# Adwaita theme for Steam
 io.github.Foldex.AdwSteamGtk
+
+# BoxBuddy, graphical distrobox manager
 io.github.dvlv.boxbuddyrs
+
+# Warehouse, flatpak manager
 io.github.flattool.Warehouse
 io.github.giantpinkrobots.flatsweep
 io.github.jeffshee.Hidamari

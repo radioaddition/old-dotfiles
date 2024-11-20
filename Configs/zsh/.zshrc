@@ -47,7 +47,15 @@ export GPG_TTY
 # Aliases
 alias -- 'archive'='tar -czvf archive.tar.gz '
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
-alias -- 'flatdec'='if [ ! -f $HOME/.config/flatpaks ]; then flatpak list --app --columns=application | sed -n '1!p' | sort | tee $HOME/.config/flatpaks; fi; flatpak install $(cat $HOME/.config/flatpaks) --noninteractive --or-update; flatpak uninstall $(flatpak list --app --columns=application | sed -n '1!p' | cat - $HOME/.config/flatpaks | sort | uniq -u) --noninteractive --delete-data; flatpak uninstall --noninteractive --unused --delete-data'
+flatdec() {
+	bash -c '\
+		if [ ! -f $HOME/.config/flatpaks ]; then
+			flatpak list --app --columns=application | sed -n "1!p" | sort | tee $HOME/.config/flatpaks
+		fi
+		flatpak install $(grep -v "^#" "./.config/flatpaks") --noninteractive --or-update
+		flatpak uninstall $(flatpak list --app --columns=application | sed -n "1!p" | cat $HOME/.config/flatpaks - | grep -v "^#" | sort | uniq -u) --noninteractive --delete-data
+		flatpak uninstall --noninteractive --unused --delete-data'
+}
 alias -- 'clean'='nix-env --delete-generations old && nix-collect-garbage -d'
 alias -- 'cleanr'='sudo nix-env --delete-generations old && sudo nix-collect-garbage -d'
 alias -- 'clearls'='clear && ls -A'
