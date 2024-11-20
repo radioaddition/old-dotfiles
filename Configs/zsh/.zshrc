@@ -51,10 +51,10 @@ alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/B
 flatdec() {
 	bash -c '\
 		if [ ! -f $HOME/.config/flatpaks ]; then
-			flatpak list --app --columns=application | sed -n "1!p" | sort | tee $HOME/.config/flatpaks
+			flatpak list --app --columns=application | tail -n +1 | sort | tee $HOME/.config/flatpaks
 		fi
 		flatpak install $(grep -v "^#" "./.config/flatpaks") --noninteractive --or-update
-		flatpak uninstall $(flatpak list --app --columns=application | sed -n "1!p" | cat $HOME/.config/flatpaks - | grep -v "^#" | sort | uniq -u) --noninteractive --delete-data
+		flatpak uninstall $(flatpak list --app --columns=application | tail -n +1 | cat $HOME/.config/flatpaks - | grep -v "^#" | sort | uniq -u) --noninteractive --delete-data
 		flatpak uninstall --noninteractive --unused --delete-data'
 }
 alias -- 'clean'='nix-env --delete-generations old && nix-collect-garbage -d'
