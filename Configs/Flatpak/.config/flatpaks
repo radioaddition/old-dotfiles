@@ -22,6 +22,9 @@ com.usebottles.bottles
 # ProtonPlus, a GUI proton updater
 com.vysp3r.ProtonPlus
 
+# Fedora Media Writer
+org.fedoraproject.MediaWriter
+
 # Fragments, a GTK+ torrent client
 de.haeckerfelix.Fragments
 
