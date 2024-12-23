@@ -16,6 +16,9 @@ com.github.Matoking.protontricks
 # Flatseal, a flatpak permissions manager
 com.github.tchx84.Flatseal
 
+# Dconf Editor
+ca.desrt.dconf-editor
+
 # Bottles, a wine prefix manager
 com.usebottles.bottles
 
