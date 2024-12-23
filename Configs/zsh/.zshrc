@@ -47,6 +47,7 @@ GPG_TTY="$(tty)"
 export GPG_TTY
 # Aliases
 alias -- 'archive'='tar -czvf archive.tar.gz '
+alias -- 'dotup'='dir="$PWD" cd .dotfiles && git add -AN && git commit -a && git push && cd $dir'
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
 flatdec() {
 	bash -c '\
