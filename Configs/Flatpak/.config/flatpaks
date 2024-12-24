@@ -34,9 +34,6 @@ de.haeckerfelix.Fragments
 # Snoop, search through file contents (rather than just names)
 de.philippun1.Snoop
 
-# Youtube Client
-io.freetubeapp.FreeTube
-
 # Metadata cleaner
 fr.romainvigier.MetadataCleaner
 
