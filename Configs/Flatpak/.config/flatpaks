@@ -1,6 +1,11 @@
 # Steam
 com.valvesoftware.Steam
+
+# Steam Link
 com.valvesoftware.SteamLink
+
+# Rustdesk
+com.rustdesk.RustDesk
 
 # Warp, a wormhole client
 app.drey.Warp
