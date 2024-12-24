@@ -1,8 +1,6 @@
 # Steam
 com.valvesoftware.Steam
 com.valvesoftware.SteamLink
-org.freedesktop.Platform.VulkanLayer.MangoHud
-org.freedesktop.Platform.VulkanLayer.vkBasalt
 com.valvesoftware.Steam.Utility.gamescope
 
 # Warp, a wormhole client
