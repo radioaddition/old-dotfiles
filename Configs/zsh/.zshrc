@@ -58,12 +58,9 @@ flatdec() {
 		flatpak uninstall $(flatpak list --app --columns=application | tail -n +1 | cat $HOME/.config/flatpaks - | grep -v "^#" | sort | uniq -u) --noninteractive --delete-data
 		flatpak uninstall --noninteractive --unused --delete-data'
 }
-alias -- 'clean'='nix-env --delete-generations old && nix-collect-garbage -d'
-alias -- 'cleanr'='sudo nix-env --delete-generations old && sudo nix-collect-garbage -d'
 alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
 alias -- 'ls'='eza'
-alias -- 'rootsh'='run0 sh -c "zsh"'
 alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
