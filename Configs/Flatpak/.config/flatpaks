@@ -1,7 +1,6 @@
 # Steam
 com.valvesoftware.Steam
 com.valvesoftware.SteamLink
-com.valvesoftware.Steam.Utility.gamescope
 
 # Warp, a wormhole client
 app.drey.Warp
