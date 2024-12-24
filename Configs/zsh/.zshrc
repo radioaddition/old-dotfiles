@@ -62,6 +62,7 @@ alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
 alias -- 'ls'='eza'
 alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
+alias -- 'cd'='z'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
