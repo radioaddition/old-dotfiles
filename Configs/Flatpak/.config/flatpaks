@@ -22,6 +22,9 @@ chat.simplex.simplex
 # GPU Screen recorder
 com.dec05eba.gpu_screen_recorder
 
+# Image Viewer
+org.gnome.Loupe
+
 # Protontricks
 com.github.Matoking.protontricks
 
