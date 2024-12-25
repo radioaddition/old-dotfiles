@@ -7,6 +7,9 @@ com.valvesoftware.SteamLink
 # Rustdesk
 com.rustdesk.RustDesk
 
+# GDM Settings
+io.github.realmazharhussain.GdmSettings
+
 # Warp, a wormhole client
 app.drey.Warp
 
