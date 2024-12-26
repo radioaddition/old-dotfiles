@@ -43,6 +43,7 @@ source "$HOME/.p10k.zsh"
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 GPG_TTY="$(tty)"
 export GPG_TTY
 # Aliases
