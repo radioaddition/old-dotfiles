@@ -8,16 +8,12 @@ fi
 
 typeset -U path cdpath fpath manpath
 
-for profile in ${(z)NIX_PROFILES}; do
-  fpath+=($profile/share/zsh/site-functions $profile/share/zsh/$ZSH_VERSION/functions $profile/share/zsh/vendor-completions)
-done
-
 export ZPLUG_HOME=/home/linuxbrew/.linuxbrew/opt/zplug
 source $ZPLUG_HOME/init.zsh
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "jeffreytse/zsh-vi-mode"
-zplug "romkatv/powerlevel10k", as:theme, depth:1
+#zplug "romkatv/powerlevel10k", as:theme, depth:1
 if ! zplug check; then
   zplug install
 fi
@@ -64,6 +60,7 @@ alias -- 'extract'='tar -xzvf '
 alias -- 'ls'='eza'
 alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
 alias -- 'cd'='z'
+alias -- 'cdi'='zi'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
