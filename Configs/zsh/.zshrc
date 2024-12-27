@@ -7,7 +7,6 @@ source $ZPLUG_HOME/init.zsh
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "jeffreytse/zsh-vi-mode"
-#zplug "romkatv/powerlevel10k", as:theme, depth:1
 if ! zplug check; then
   zplug install
 fi
@@ -29,7 +28,6 @@ unsetopt EXTENDED_HISTORY
 
 export EDITOR="nvim"
 export MANPAGER='nvim +Man!'
-source "$HOME/.p10k.zsh"
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
