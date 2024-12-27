@@ -1,10 +1,4 @@
 PATH=/home/radioaddition/.local/bin:/home/radioaddition/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/radioaddition/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/var/home/linuxbrew/.linuxbrew/Cellar/zplug/2.4.2/bin
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
 
 typeset -U path cdpath fpath manpath
 
@@ -40,8 +34,6 @@ eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
-GPG_TTY="$(tty)"
-export GPG_TTY
 # Aliases
 alias -- 'archive'='tar -czvf archive.tar.gz '
 alias -- 'dotup'='export dir="$PWD" && cd ~/.dotfiles && git add -AN && git commit -a && git push && cd $dir'
@@ -63,6 +55,3 @@ alias -- 'cd'='z'
 alias -- 'cdi'='zi'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
