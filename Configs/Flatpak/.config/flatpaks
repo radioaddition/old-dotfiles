@@ -1,11 +1,17 @@
 # Steam
 com.valvesoftware.Steam
 
-# Steam Link
-com.valvesoftware.SteamLink
+# Steam Adwaita Theme
+io.github.Foldex.AdwSteamGtk
 
-# Rustdesk
-com.rustdesk.RustDesk
+# Steam Proton Manager
+com.vysp3r.ProtonPlus
+
+# Protontricks
+com.github.Matoking.protontricks
+
+# Pods, a podman manager
+com.github.marhkb.Pods
 
 # GDM Settings
 io.github.realmazharhussain.GdmSettings
@@ -25,9 +31,6 @@ com.dec05eba.gpu_screen_recorder
 # Image Viewer
 org.gnome.Loupe
 
-# Protontricks
-com.github.Matoking.protontricks
-
 # Flatseal, a flatpak permissions manager
 com.github.tchx84.Flatseal
 
@@ -36,9 +39,6 @@ ca.desrt.dconf-editor
 
 # Bottles, a wine prefix manager
 com.usebottles.bottles
-
-# ProtonPlus, a GUI proton updater
-com.vysp3r.ProtonPlus
 
 # Fedora Media Writer
 org.fedoraproject.MediaWriter
@@ -54,9 +54,6 @@ fr.romainvigier.MetadataCleaner
 
 # Ente Auth, 2FA app
 io.ente.auth
-
-# Adwaita theme for Steam
-io.github.Foldex.AdwSteamGtk
 
 # BoxBuddy, graphical distrobox manager
 io.github.dvlv.boxbuddyrs
