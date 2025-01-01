@@ -1,17 +1,18 @@
 call plug#begin()
 
-Plug 'tpope/vim-sensible'
-Plug 'junegunn/vim-easy-align'
-Plug 'junegunn/fzf'
-Plug 'preservim/nerdtree'
-Plug 'tpope/vim-fireplace'
-Plug 'sQVe/sort.nvim'
-Plug 'MunifTanjim/nui.nvim'
-Plug 'VonHeikemen/fine-cmdline.nvim'
 Plug 'Mofiqul/adwaita.nvim'
+Plug 'MunifTanjim/nui.nvim'
+Plug 'NoahTheDuke/vim-just'
+Plug 'VonHeikemen/fine-cmdline.nvim'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'junegunn/fzf'
+Plug 'junegunn/vim-easy-align'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
-Plug 'NoahTheDuke/vim-just'
+Plug 'preservim/nerdtree'
+Plug 'sQVe/sort.nvim'
+Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-sensible'
 
 call plug#end()
 runtime! ftplugin/man.vim

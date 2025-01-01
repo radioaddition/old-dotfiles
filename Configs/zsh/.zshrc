@@ -1,4 +1,4 @@
-PATH=/home/radioaddition/.local/bin:/home/radioaddition/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/radioaddition/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/var/home/linuxbrew/.linuxbrew/Cellar/zplug/2.4.2/bin
+PATH=$HOME/.local/bin:/home/radioaddition/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/radioaddition/.cargo/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/var/home/linuxbrew/.linuxbrew/Cellar/zplug/2.4.2/bin:$HOME/.nix-profile/bin:/nix/var/nix/profiles/default/bin
 
 typeset -U path cdpath fpath manpath
 
@@ -38,6 +38,15 @@ alias -- 'clear'='clear -x'
 alias -- 'archive'='tar -czvf archive.tar.gz '
 alias -- 'dotup'='export dir="$PWD" && cd ~/.dotfiles && git add -AN && git commit -a && git push && cd $dir'
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
+#sudohost() {
+#    if [[ ${#} -eq 0 ]]; then
+#        cmd="$(printf "exec \"%s\" --login" "${SHELL}")"
+#        ssh host.local "${cmd}"
+#    else
+#        cmd="$(printf "cd \"%s\"; exec %s" "${PWD}" "$*")"
+#        ssh host.local "${cmd}"
+#    fi
+#}
 flatdec() {
 	bash -c '\
 		if [ ! -f $HOME/.config/flatpaks ]; then
@@ -50,7 +59,7 @@ flatdec() {
 alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
 alias -- 'ls'='eza'
-alias -- 'vivi'='nvim /home/radioaddition/.config/nvim/init.vim'
+alias -- 'vivi'='nvim $HOME/.config/nvim/init.vim'
 alias -- 'cd'='z'
 alias -- 'cdi'='zi'
 

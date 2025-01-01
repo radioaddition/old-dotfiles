@@ -1,6 +1,7 @@
 brew "age"
 brew "atuin"
 brew "bat"
+brew "chezmoi"
 brew "dbus"
 brew "direnv"
 brew "expat"
