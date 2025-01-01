@@ -59,7 +59,7 @@ flatdec() {
 }
 alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
-alias -- 'ls'='eza -A --no-quotes --follow-symlinks'
+alias -- 'ls'='eza -A --follow-symlinks'
 alias -- 'vivi'='nvim $HOME/.config/nvim/init.vim'
 alias -- 'cd'='z'
 alias -- 'cdi'='zi'
