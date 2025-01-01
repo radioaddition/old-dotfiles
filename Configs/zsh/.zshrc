@@ -35,6 +35,7 @@ eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 # Aliases
 alias -- 'clear'='clear -x'
+alias -- 'so'='source ~/.zshrc'
 alias -- 'archive'='tar -czvf archive.tar.gz '
 alias -- 'dotup'='export dir="$PWD" && cd ~/.dotfiles && git add -AN && git commit -a && git push && cd $dir'
 alias -- 'bbic'='brew update && brew bundle install --cleanup --file=~/.config/Brewfile --no-lock && brew upgrade'
@@ -58,7 +59,7 @@ flatdec() {
 }
 alias -- 'clearls'='clear && ls -A'
 alias -- 'extract'='tar -xzvf '
-alias -- 'ls'='eza'
+alias -- 'ls'='eza -A --no-quotes --follow-symlinks'
 alias -- 'vivi'='nvim $HOME/.config/nvim/init.vim'
 alias -- 'cd'='z'
 alias -- 'cdi'='zi'
