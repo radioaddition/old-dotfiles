@@ -13,7 +13,10 @@ Plug 'preservim/nerdtree'
 Plug 'sQVe/sort.nvim'
 Plug 'tpope/vim-fireplace'
 Plug 'tpope/vim-sensible'
-
+let @a='ddpkJJj0'
+let @b='f €ý5a€kbo€kb€kbkddkPjjj'
+let @c='100@agg0i x'
+let @d='gg0100@b€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5€ý5dd'
 call plug#end()
 runtime! ftplugin/man.vim
 let g:adwaita_transparent = v:true
@@ -21,6 +24,7 @@ silent! colorscheme adwaita
 set number
 set relativenumber
 set cursorline
+set lazyredraw
 set ignorecase smartcase
 set clipboard+=unnamedplus
 au InsertEnter * hi CursorLine gui=underline cterm=underline

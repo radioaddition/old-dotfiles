@@ -52,6 +52,9 @@ io.github.Foldex.AdwSteamGtk
 # BoxBuddy, graphical distrobox manager
 io.github.dvlv.boxbuddyrs
 
+# Ignition, startup process manager
+io.github.flattool.Ignition
+
 # Warehouse, flatpak manager
 io.github.flattool.Warehouse
 
@@ -72,6 +75,9 @@ io.github.realmazharhussain.GdmSettings
 
 # Bootable media creator
 io.gitlab.adhami3310.Impression
+
+# Kando, pie menu
+menu.kando.Kando
 
 # Fedora Media Writer
 org.fedoraproject.MediaWriter
