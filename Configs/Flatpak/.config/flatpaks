@@ -76,9 +76,6 @@ io.github.realmazharhussain.GdmSettings
 # Bootable media creator
 io.gitlab.adhami3310.Impression
 
-# Kando, pie menu
-menu.kando.Kando
-
 # Fedora Media Writer
 org.fedoraproject.MediaWriter
 
