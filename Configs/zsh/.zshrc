@@ -33,6 +33,7 @@ eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+eval "$(just --completions zsh)"
 # Aliases
 alias -- 'clear'='clear -x'
 alias -- 'so'='source ~/.zshrc'
