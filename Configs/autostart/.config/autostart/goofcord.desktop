@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Name=goofcord
-Comment=goofcordstartup script
-Exec=/nix/store/j068mq0dqqkxabqclylbvx6qvxa8d70d-goofcord-1.4.2/opt/GoofCord/goofcord
-StartupNotify=false
-Terminal=false

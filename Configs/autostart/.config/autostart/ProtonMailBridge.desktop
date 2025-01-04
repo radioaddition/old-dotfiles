@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=ProtonMailBridge
-Exec="/home/radioaddition/.nix-profile/bin/protonmail-bridge-gui" "--no-window"
-X-GNOME-Autostart-enabled=true

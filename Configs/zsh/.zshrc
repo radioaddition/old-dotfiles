@@ -33,7 +33,9 @@ eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
+eval "$(chezmoi completion zsh)"
 eval "$(just --completions zsh)"
+eval "$(ujust --completions zsh)"
 # Aliases
 alias -- 'clear'='clear -x'
 alias -- 'so'='source ~/.zshrc'
